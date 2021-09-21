@@ -4,12 +4,12 @@ import 'firebase/compat/auth';
 // For the love of God, please put compat after firebase/ in order to make this little piece of  shit work
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDcScFmwAFBsfDfSwLSUj1y0OOeqXWApKg",
-  authDomain: "slack-clone-yt-5d5e2.firebaseapp.com",
-  projectId: "slack-clone-yt-5d5e2",
-  storageBucket: "slack-clone-yt-5d5e2.appspot.com",
-  messagingSenderId: "275177250471",
-  appId: "1:275177250471:web:859352a0bb53b8ec640582"
+  apiKey: // insert your apiKey here,
+  authDomain: //insert your authDomain here,
+  projectId: // insert your projectID here,
+  storageBucket: // insert your storage bucket here,
+  messagingSenderId: // insert your messaging SenderId here,
+  appId: // insert your appId here.
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)
