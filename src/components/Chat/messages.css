@@ -1,0 +1,36 @@
+.messageContainer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.profilePic,
+.noProfilePic {
+  border-radius: 8px;
+  height: 50px;
+  width: 50px;
+}
+
+.noProfilePic {
+  background-color: indigo;
+  color: white;
+  position: relative;
+}
+
+.profilePicText {
+  font-size: 25px;
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 10px);
+}
+
+.messageInfo {
+  padding-left: 10px;
+}
+
+.messageInfo h4 span {
+  color: gray;
+  font-weight: 300;
+  margin-left: 4px;
+  font-size: 10px;
+}

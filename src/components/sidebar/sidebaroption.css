@@ -1,0 +1,30 @@
+.sideBarOption-Container {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  padding-left: 2px;
+  cursor: pointer;
+}
+
+.sideBarOption-Container:hover {
+  opacity: 0.9;
+  background-color: #340e36;
+}
+
+.sideBarOption-Header {
+  font-weight: 500;
+}
+
+.sideBarOption-Channel {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 300;
+}
+.sideBarOption-Channel span {
+  padding: 15px;
+}
+
+.sideBarOption-Channel p {
+  padding: 10px 0;
+}

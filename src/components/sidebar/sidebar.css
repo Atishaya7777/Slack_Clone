@@ -1,0 +1,53 @@
+@import url("../../index.css");
+
+.sideBarContainer {
+  background-color: var(--slack-color);
+  color: var(--text-color);
+  flex: 0.3;
+  max-width: 260px;
+  margin-top: 60px;
+}
+
+.sideBarHeader {
+  display: flex;
+  border-bottom: 1px solid #49274b;
+  padding: 13px;
+}
+
+.sideBarHeader-createIcon {
+  padding: 8px;
+  color: #49274b;
+  font-size: 18px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.sideBarInfo {
+  flex: 1;
+}
+
+.sideBarInfo h2 {
+  font-size: 15px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.sideBarInfo h3 {
+  display: flex;
+  font-size: 13px;
+  font-weight: 400;
+  align-items: center;
+}
+
+.onlineIcon {
+  color: green;
+  font-size: 14px;
+  margin-top: 1px;
+  margin-right: 2px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #49274b;
+}

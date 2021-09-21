@@ -1,0 +1,42 @@
+.chatContainer {
+  flex: 0.7;
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-top: 60px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.headerLeft {
+  display: flex;
+  font-size: 18px;
+}
+
+.headerLeft h4 {
+  text-transform: lowercase;
+  margin-right: 10px;
+}
+
+.headerRight p {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.headerRightHelpIcon {
+  margin-right: 5px;
+  font-size: 16px !important;
+}
+
+.starChannelIcon {
+  cursor: pointer;
+}
+
+.chatBottom {
+  padding-bottom: 200px;
+}

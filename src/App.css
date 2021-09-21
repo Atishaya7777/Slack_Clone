@@ -1,0 +1,28 @@
+@import url("./index.css");
+
+.appBody {
+  display: flex;
+  height: 100vh;
+}
+
+.appLoading {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.loadingLogo {
+  height: 100px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.appLoadingContent {
+  text-align: center;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

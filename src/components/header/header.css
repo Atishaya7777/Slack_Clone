@@ -1,0 +1,64 @@
+@import url("../../index.css");
+
+.header-container {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: var(--slack-color);
+  color: var(--text-color);
+}
+
+.header-left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.header-left-clock-icon {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.header-avatar {
+  cursor: pointer;
+}
+
+.header-avatar:hover {
+  opacity: 0.8;
+}
+
+.header-search {
+  justify-content: center;
+  flex: 0.4;
+  opacity: 1;
+  border-radius: 10px;
+  background-color: #421f44;
+  display: flex;
+  padding: 0 50px;
+  color: grey;
+  border: 1px gray solid;
+}
+
+.header-search input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  text-align: center;
+  min-width: 30vw;
+  color: var(--text-color);
+}
+
+.header-right {
+  flex: 0.3;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header-right-help-icon {
+  margin-left: auto;
+  margin-right: 20px;
+}
